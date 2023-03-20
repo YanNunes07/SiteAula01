@@ -1,0 +1,37 @@
+menu{
+    background-color: rgb(110, 98, 93);
+}
+
+.container1{
+    background-color: rgb(255, 255, 255);
+    padding-left: 18%;
+    
+}
+
+
+.topo{
+    
+    display: flex;
+    
+    flex-flow: center;
+    align-items: center;
+    padding:1% ;
+}
+
+fieldset{
+    width: 30%;
+}
+
+fieldset img{
+    width: 50px;
+}
+
+.botao{
+    padding-right: 22%;
+}
+.tab{
+    padding: 5%;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}

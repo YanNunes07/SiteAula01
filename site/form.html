@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadrastro</title>
+</head>
+
+<body>
+    <header>
+        <nav class="menu">
+            <div class="nav-wrapper">
+                <a href="./index.html" class="brand-logo">Home</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="./sobre.html">Sobre</a></li>
+                    <li><a href="./tabela.html">tabela</a></li>
+                    <li><a href="./form.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="">
+        <div class="row" style="padding-left: 4%;">
+            <div class="col s12 m16" style="padding: 8%;">
+                <div class="card blue-grey darken-1" style="border-radius: 2%;">
+                    <div class="card-content white-text" style="padding-right: 5%; padding-left: 15%;">
+
+                        <h1 style="padding-right: 25%;">Informe seus dados</h1>
+                        <br>
+                        <br>
+                        <div class="row">
+                            <form class="col m12 s15">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="input-field col s5">
+                                            <input value="" id="first_name2" type="text" class="validate">
+                                            <label class="active" for="first_name2">Nome:</label>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="input-field col s5">
+                                                <input value="" id="first_name2" type="text" class="validate">
+                                                <label class="active" for="first_name2">Sobrenome:</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="input-field col s5">
+                                            <input value="" id="CPF" type="number" class="validate">
+                                            <label class="active" for="CPF">CPF:</label>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="input-field col s5">
+                                                <i class="material-icons prefix">phone :</i>
+                                                <input value="" id="fone" type="text" class="validate">
+                                                <label class="active" for="first_name2">Telefone:</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="input-field col s10">
+                                            <input value="" id="endereco" type="text" class="validate">
+                                            <label class="active" for="endereco">Endereço:</label>
+                                        </div>
+
+                                    </div>
+                            </form>
+                            
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="input-field col s10">
+                                            <input value="" id="first_name2" type="email" class="validate">
+                                            <label class="active" for="email">Email:</label>
+                                        </div>
+
+                                    </div>
+                            </form>
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="row">
+                                        <div class="input-field col s5">
+                                            <input value="" id="first_name2" type="password" class="validate">
+                                            <label class="active" for="first_name2">Senha:</label>
+                                            <a href="./index.html"></a>
+                                        </div>
+                                        <div class="input-field col s5">
+                                            <input value="" id="first_name2" type="password" class="validate">
+                                            <label class="active" for="first_name2">Repita a senha:</label>
+                                        </div>
+
+                                    </div>
+                            </form>
+
+                        </div>
+                        <a class="waves-effect waves-light btn" href="./index.html"><i class="material-icons right" onclick="voltar""
+                                style="padding-right: 11%;"></i>Voltar</a>
+
+                        <a class="waves-effect waves-light btn" value="Cadastrar" onclick="msg()"><i
+                                class="material-icons right"></i>Cadastrar</a>
+
+                        <script>
+                            function voltar(){
+                                return 
+                            }
+                            function msg() {
+                                alert("Ainda em manutenção!");
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Conteudo</h5>
+                    <p class="grey-text text-lighten-4">Projeto final em html e css</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Sobre</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Escola QI</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Flutter</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Dart</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Java script</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2023 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">QI Escola Tecnica </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
